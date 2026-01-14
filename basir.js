@@ -213,10 +213,52 @@
 //by this way i am also going too creating the obj 
 
 
-function hamafun(name,age,group){
-  this.name=name;
-  this.age=age;
-  this.group=group;
+// function hamafun(name,age,group){
+//   this.name=name;
+//   this.age=age;
+//   this.group=group;
+// }
+// const hamarobj=new hamafun("sheikh basir",34,"A+");
+// console.log(hamarobj);
+
+
+//by this way i am going  to work and the task will going to work 
+
+
+
+// //this is my global
+// const naam=23;
+// function add(){
+//   const naam=78;
+//   console.log(naam);
+// }
+// add()
+
+
+// function outerfun(){
+//   let count=0;
+
+//   function innerfun(){
+//     count++;
+//   }
+//   return count;
+// }
+
+// const sam=outerfun();
+// sam()
+// sam();
+// console.log(sam)
+// console.log(sam);
+
+//now i am going to writen the code for the oops 
+const user={
+  name:"sheikh basir",
+  email:"sheikhbasir123@gmail.com",
+  login(){
+    console.log(user.name,"Loggeddin Successfull")
+  }
 }
-const hamarobj=new hamafun("sheikh basir",34,"A+");
-console.log(hamarobj);
+
+
+//now i am going to printigin the loggin
+console.log(user.login());

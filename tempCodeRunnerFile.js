@@ -1,3 +1,2 @@
-const hamarfnction=()=>{
-
-// }
+sam()
+// sam();
